@@ -25,6 +25,59 @@
     <title>My first Amplify App</title>
   </head>
   <body>
+    
+     <div class="nav">
+                <ul>
+                  <li class="home"><a href="#">Home</a></li>
+                  <li class="tutorials"><a class="active" href="#">Portfolio</a></li>
+                  <li class="about"><a href="#">About</a></li>
+                  <li class="news"><a href="#">Videos</a></li>
+                  <li class="contact"><a href="#">Contact</a></li>
+                </ul>
+              </div>
+
+
+        <div class="top">
+                <h1 class="followMe"> Follow Me On Insta @baileyJ_photo</h1>
+                <form method="get" action="https://www.instagram.com/baileyj_photo/?hl=en">
+                <button class="myButton" type="submit">Follow</button>
+                </form>
+                </div>
+                </div>
+    <picture class="bgPhoto">
+    <img src="snowlake-19.jpg" class="bgPhoto" style=width:100%;height:100%;>
+    </picture>
+
+
+    <div class="container">
+        <h1 class="myLanta">Hello, world! Bailey Backal</h1>
+        <div class="row">
+        <div class="col-md-6">
+        <form>
+            <div class="form-group">
+             
+              <input type="text" class="form-control" id="inputPhone" aria-describedby="phoneHelp" placeholder="Enter your phone number">
+            </div>
+            <div class="form-group">
+             
+                <input type="text" class="form-control" id="inputMessage" aria-describedby="messageHelp" placeholder="Enter the text message you would like to send">
+            </div>
+            <button type="button" class="btn btn-primary" id="sendText">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+            <button type="button" class="btn btn-success" id="pollyButton">Voice My Message Using Polly</button>
+            <audio id="audioPlayback" controls>
+                <source id="audioSource" type="audio/mp3" src="">
+              <p id="result">result</p>
+      </audio>
+      <audio controls autoplay>
+            <source src="Light-summer-rain-sound.mp3" type="audio/mpeg">
+        </div>
+    </div>
+    
+    
+    
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
