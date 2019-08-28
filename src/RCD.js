@@ -61,7 +61,7 @@ export default class extends PureComponent {
     brushRadius: 10,
     brushColor: "#444",
     catenaryColor: "#0a0302",
-    gridColor: "rgba(150,150,150,0.17)",
+    gridColor: "transparent",
     hideGrid: false,
     canvasWidth: 400,
     canvasHeight: 400,
