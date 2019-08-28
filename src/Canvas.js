@@ -27,8 +27,8 @@ class Demo extends Component {
     brushColor: rand(),
     canvasHeight: 350,
     canvasWidth: 380,
-    brushRadius: 4,
-    lazyRadius: 8
+    brushRadius: 1,
+    lazyRadius: 4
   }
   lineLength = 0
   id = '123'
